@@ -1,0 +1,86 @@
+html {
+    background-image:url('./assets/background.svg');
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  } 
+  
+  h1, h2, h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  a {
+    text-decoration: none
+  }
+  
+  .list {
+    text-align: right
+  }
+  
+  .text {
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+  
+  .projects {
+    margin-left: 17%
+  }
+  
+  
+  .icon {
+    margin-right: 2%;
+    width: 2vw;
+    height: 2vw
+  }
+  
+  #subheading {
+    margin-left: 2%
+  }
+  
+  
+  #name {
+    width: 40vw;
+    height: 8vw; 
+  }
+  
+  #skills {
+    margin-top: 15%;
+    width: 20vw;
+    height: 8vw; 
+    margin-left: 50%
+  }
+  
+  #projects {
+    margin-top: 15%;
+    width: 30vw;
+    height: 8vw; 
+    margin-left: 15%
+  }
+  
+  #github {
+    width: 5vw;
+    height: 5vw;
+    margin-left: 16%
+  }
+  
+  #proficient, #knowledgeable, #familiar {
+    float: left
+  }
+  
+  #proficient {
+    margin-top: 2%;
+    margin-left: 45%;
+    margin-right: 2%
+  }
+  
+  #knowledgeable {
+    margin-top: 2%;
+    margin-right: 2%
+  }
+  
+  #familiar {
+    margin-top: 2%;
+    margin-right: 2%
+  }
