@@ -74,9 +74,6 @@ class App extends Component {
 
                 </div>
               </div>
-              <div id="bio">
-              BIO
-              </div>
               </div>
             {/*</Parallax.Layer>*/}
           </ScrollableAnchor>
