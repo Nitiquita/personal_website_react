@@ -1,86 +1,126 @@
-html {
-    background-image:url('./assets/background.svg');
+/*------------------------------------------------*/
+/*BASIC SETUP*/
+/*------------------------------------------------*/
+
+
+/*------------------------------------------------*/
+/*NAVIGATION*/
+/*------------------------------------------------*/
+
+
+
+html, body {
+    /* background-image:url('./assets/background.svg');
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;  */
+    margin: 0; 
+    padding: 0;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 22px;
   } 
   
-  h1, h2, h3 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif
-  }
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
   
-  a {
-    text-decoration: none
-  }
+a {
+  text-decoration: none
+}
+
+nav {
+  position: fixed;
+}
+
+nav ul {
+  list-style: none;
+  z-index: 9999;
+}
+
+nav li { 
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 200%;
+  /* font-weight: 700; */
+}
+
+nav li a {
+  color: white;
+}
+
+.section1 {
+  background-image: url('./assets/background.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+.section2 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/background.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+.list {
+
+}
   
-  .list {
-    text-align: right
-  }
+.heading {
+  float: right;
+  text-align: right;
+  margin-top: 225px;
+  margin-right: 300px;
+}
+
+.heading2 {
+  margin-left: 225px;
+  padding-top: 225px;
+}
   
-  .text {
-    margin-top: 15%;
-    margin-left: 15%;
-  }
-  
-  .projects {
-    margin-left: 17%
-  }
-  
-  
-  .icon {
-    margin-right: 2%;
-    width: 2vw;
-    height: 2vw
-  }
-  
-  #subheading {
-    margin-left: 2%
-  }
+.icon-box {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
   
   
-  #name {
-    width: 40vw;
-    height: 8vw; 
-  }
+.icon {
+  margin-left: 25px;
+  width: 2vw;
+  height: 2vw
+}
   
-  #skills {
-    margin-top: 15%;
-    width: 20vw;
-    height: 8vw; 
-    margin-left: 50%
-  }
+.subheading {
+  margin-right: 25px;
+}
   
-  #projects {
-    margin-top: 15%;
-    width: 30vw;
-    height: 8vw; 
-    margin-left: 15%
-  }
   
-  #github {
-    width: 5vw;
-    height: 5vw;
-    margin-left: 16%
-  }
+#name {
+  width: 40vw;
+  height: 8vw; 
+}
   
-  #proficient, #knowledgeable, #familiar {
-    float: left
-  }
+#skills-img {
+
+  width: 20vw;
+  height: 8vw; 
+
+}
   
-  #proficient {
-    margin-top: 2%;
-    margin-left: 50%;
-    margin-right: 2%
-  }
+
   
-  #knowledgeable {
-    margin-top: 2%;
-    margin-right: 2%
-  }
+#github {
+    
+}
   
-  #familiar {
-    margin-top: 2%;
-    margin-right: 2%
-  }
+#proficient, #knowledgeable, #familiar {
+  float: left;
+  margin-right: 50px;
+}
+  
