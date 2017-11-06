@@ -26,6 +26,7 @@ class App extends Component {
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions)
+    alert("Please visit my new portfolio page at: https://nitika-nadgar.herokuapp.com")
   }
 
   componentWillUnmount() {
